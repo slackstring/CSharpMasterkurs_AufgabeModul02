@@ -1,0 +1,15 @@
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\bin\Debug\net6.0\CSharpMasterkursUebungAufgabe02.exe
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\bin\Debug\net6.0\CSharpMasterkursUebungAufgabe02.deps.json
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\bin\Debug\net6.0\CSharpMasterkursUebungAufgabe02.runtimeconfig.json
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\bin\Debug\net6.0\CSharpMasterkursUebungAufgabe02.dll
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\bin\Debug\net6.0\CSharpMasterkursUebungAufgabe02.pdb
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.csproj.AssemblyReference.cache
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.GeneratedMSBuildEditorConfig.editorconfig
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.AssemblyInfoInputs.cache
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.AssemblyInfo.cs
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.csproj.CoreCompileInputs.cache
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.dll
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\refint\CSharpMasterkursUebungAufgabe02.dll
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.pdb
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\CSharpMasterkursUebungAufgabe02.genruntimeconfig.cache
+F:\[programming]\C#Masterkurs\Übung02\CSharpMasterkursUebungAufgabe02\CSharpMasterkursUebungAufgabe02\obj\Debug\net6.0\ref\CSharpMasterkursUebungAufgabe02.dll
