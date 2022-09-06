@@ -11,6 +11,7 @@ namespace Helloworld
     {
         static void Main(string[] args)
         {
+            /*
             byte age;
             decimal asset;
             bool marriageStatus;
@@ -25,7 +26,21 @@ namespace Helloworld
             writeText("Geben Sie Ihr Alter ein:");
             age = Convert.ToByte(Console.ReadLine());
             writeText("Sie heißen " + preName + " " + name + " und sind " + age + " Jahre alt.");
+            */
+       
+            writeText("Zahl 1:");
+            double Zahl1 = Convert.ToDouble(Console.ReadLine());
+            writeText("Zahl 2:");
+            double Zahl2 = Convert.ToDouble(Console.ReadLine());
+          
+            Console.WriteLine("{0} + {1} = {2}", Zahl1, Zahl2, Zahl1 + Zahl2);
+            Console.WriteLine("{0} - {1} = {2}", Zahl1, Zahl2, Zahl1 - Zahl2);
+            Console.WriteLine("{0} * {1} = {2}", Zahl1, Zahl2, Zahl1*Zahl2);
+            Console.WriteLine("{0} / {1} = {2}", Zahl1, Zahl2, Zahl1/Zahl2);
+            Console.WriteLine("{0} % {1} = {2}", Zahl1, Zahl2, Zahl1%Zahl2);
+
             Console.ReadKey();
+
 
 
         }   
