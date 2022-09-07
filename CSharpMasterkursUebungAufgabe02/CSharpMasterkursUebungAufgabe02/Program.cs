@@ -43,12 +43,57 @@ namespace Helloworld
             string nachname = GetTextStringInput("Nachnamen");
             Console.WriteLine("Hallo " + vorname + " " + nachname);
             
-            */
+          
             Console.WriteLine("Radius eingeben:");
             double radius = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Flaeche: {0}", Kreisfläche(radius));
-            Console.ReadKey();
+            */
 
+            //BMI Rechner (Uebung Schleifen / switch case)
+            /*
+
+
+                Console.WriteLine("Geben Sie Ihr Gewicht ein: (kg)");
+                double mass = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Geben Sie Ihre Größe ein: (m)");
+                double height = Convert.ToDouble(Console.ReadLine());
+                double bmi = mass / (height * height);
+                Console.WriteLine("Ihr BMI beträgt: {0}", bmi);
+                string bmiClass;
+  
+              
+            
+            switch (bmi)
+                {
+                    case double nr when ((nr > 0) && (nr < 18.5)):
+                        bmiClass = "Untergewicht";
+                        break;
+                    case double nr when ((nr >= 18.5) && (nr < 24.9)):
+                        bmiClass = "Normalgewicht";
+                        break;
+                    case double nr when ((nr >= 24.9) && (nr <= 29.9)):
+                        bmiClass = "Übergewicht";
+                        break;
+                    case double nr when ((nr >= 30) && (nr <= 34.9)):
+                        bmiClass = "Adipositas Grad 1";
+                        break;
+                    case double nr when ((nr >= 35) && (nr <= 39.9)):
+                        bmiClass = "Adipositas Grad 2";
+                        break;
+                    case > 40:
+                        bmiClass = "Adipositas Grad 3";
+                        break;
+                    default:
+                        bmiClass = "FEHLERHAFTE EINGABE";
+                        break;
+                }
+            Console.WriteLine(bmiClass);
+           */
+
+
+
+
+            Console.ReadKey();
         }   
         static double Kreisfläche(double radius)
         {
