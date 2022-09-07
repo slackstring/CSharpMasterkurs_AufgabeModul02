@@ -89,10 +89,24 @@ namespace Helloworld
                 }
             Console.WriteLine(bmiClass);
            */
+            /*
+            Console.WriteLine("Geben Sie ein Jahr an welches geprüft werden soll:");
+            int year = Convert.ToInt32(Console.ReadLine());
+            string schaltjahr;
+            if (leapYear(year) == true)
+            {
+                schaltjahr = "Schaltjahr";
+            }else
+            {
+                schaltjahr = "Kein Schaltjahr";
+            }
+            Console.WriteLine(schaltjahr);
 
-
-
-
+            static bool leapYear(int n)
+            {
+                return ((n % 4 == 0 && n % 100 != 0) || n % 400 == 0);
+            }
+            */
             Console.ReadKey();
         }   
         static double Kreisfläche(double radius)
