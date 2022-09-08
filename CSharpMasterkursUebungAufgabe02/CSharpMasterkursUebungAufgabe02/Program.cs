@@ -107,6 +107,34 @@ namespace Helloworld
                 return ((n % 4 == 0 && n % 100 != 0) || n % 400 == 0);
             }
             */
+
+
+            // Arrays
+
+            //string[] ar = new string[4] {"test1","test2","test3","test4"};
+            //ar[0] = "test1";
+            //ar[1] = "test2";
+            //ar[2] = "test3"; 
+            //ar[3] = "test4";
+            string[,] names = new string[,]
+            {
+                {
+                    "sabine",
+                    "sandra",
+                    "Klaus",
+                    "Max"
+                },
+                {
+                    "müller",
+                    "maier",
+                    "schmied",
+                    "mustermann"
+                }
+            };
+            Console.WriteLine(names[0, 0]);
+            Console.WriteLine(names[1, 0]);
+
+
             Console.ReadKey();
         }   
         static double Kreisfläche(double radius)
