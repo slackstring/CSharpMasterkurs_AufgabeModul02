@@ -116,26 +116,172 @@ namespace Helloworld
             //ar[1] = "test2";
             //ar[2] = "test3"; 
             //ar[3] = "test4";
-            string[,] names = new string[,]
+            /* string[,] names = new string[,]
+             {
+                 {
+                     "sabine",
+                     "sandra",
+                     "Klaus",
+                     "Max"
+                 },
+                 {
+                     "müller",
+                     "maier",
+                     "schmied",
+                     "mustermann"
+                 }
+             };
+             Console.WriteLine(names[0, 0]);
+             Console.WriteLine(names[1, 0]);
+             */
+
+            // Schleifen
+
+            /*Console.WriteLine("Gerade Zahlen ausgeben:");
+            Console.WriteLine("Geben Sie den ersten Wert ein:");
+            int zahl1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Geben Sie den zweiten Wert ein:");
+            int zahl2 = Convert.ToInt32(Console.ReadLine());
+            geradeZahlenAusgabe(zahl1, zahl2);
+
+            static void geradeZahlenAusgabe(int start, int ende)
             {
+                double wert;
+                while (start <= ende)
                 {
-                    "sabine",
-                    "sandra",
-                    "Klaus",
-                    "Max"
-                },
-                {
-                    "müller",
-                    "maier",
-                    "schmied",
-                    "mustermann"
+                    wert = start % 2;
+
+                    if (wert == 0)
+                    {
+                        Console.WriteLine(start);
+                    }
+
+                    start++;
                 }
-            };
-            Console.WriteLine(names[0, 0]);
-            Console.WriteLine(names[1, 0]);
+            }
+            */
+
+            /* Console.WriteLine("Endlos Rechner");
+
+             while (true)
+             {
+                 Console.WriteLine("Ersten Wert eingeben:");
+                 int x = Convert.ToInt32(Console.ReadLine());
+                 Console.WriteLine("Zweiten Wert eingeben:");
+                 int y = Convert.ToInt32(Console.ReadLine());
+                 Console.WriteLine("Summe = {0}", x + y);
+                 Console.ReadKey();
+                 Console.Clear();
+             } */
+
+            /*Console.WriteLine("Multiplikator");
+            Console.WriteLine("Gebe eine Zahl ein, welche mit den Zahlen von 1 bis 10 multipliziert werden soll");
+            int Zahl = Convert.ToInt32(Console.ReadLine());
+            multiplikator(Zahl);
 
 
-            Console.ReadKey();
+            static void multiplikator(int nr)
+            {
+                for (int i = 1; i <= 10; i++)
+                {
+                    Console.WriteLine("{0} * {1} = {2}", nr, i, nr * i);
+                    
+                }
+            }*/
+
+            /*Console.WriteLine("Rechteck generieren");
+            Console.WriteLine("Spalten Anzahl eingeben:");
+            int spalten = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Zeilen Anzahl eingeben:");
+            int zeilen = Convert.ToInt32(Console.ReadLine());
+            drawRectangle(zeilen, spalten);
+
+            static void drawRectangle(int zeilen, int spalten)
+            {
+                for (int i=0; i <zeilen; i++)
+                {
+                    for(int j=0; j < spalten; j++ )
+                    {
+                        Console.Write("#");
+                    }
+                    Console.Write("\n");
+                    
+                }
+            }
+            */
+            /*  Console.WriteLine("Ausgabe kleines Einmal Eins");
+              for (int i = 1; i <= 10; i++)
+              {
+                  for (int j = 1; j <= 10; j++)
+                  {
+                      Console.Write("|{0} * {1} = {2}   ",j,i,i*j);
+                  }
+                  Console.Write("\n");
+
+              }*/
+
+            /* Console.WriteLine("Gebe einen String ein:");
+             string input = Console.ReadLine();
+
+
+             for (int i = 0; i < input.Length; i++)
+             {
+                if (i==0)
+                 {
+                     Console.WriteLine(input);
+                 }
+                 else
+                 {
+                     Console.WriteLine(input[i]);
+                 }
+             } */
+
+
+            /* Console.WriteLine("Gebe ein Wort ein, welches geprüft werden soll (Palindrom)");
+             string text = Console.ReadLine();
+             bool palindromCheck = true;
+
+
+             for (int i = 0; i < text.Length; i++)
+             {
+                 if (text[i] != text[text.Length - (i + 1)])
+                 {
+                     palindromCheck = false;
+                     break;
+                 }
+             }
+
+             if(palindromCheck)
+             {
+                 Console.WriteLine("{0} ist ein Palindrom!", text);
+             }
+             else
+             {
+                 Console.WriteLine("{0} ist kein Palindrom!", text);
+             }*/
+
+            Console.WriteLine("Gebe einen Satz ein, welcher von Leerzeichen, Satzzeichen und Zahlen befreit werden soll");
+            string text = Console.ReadLine();
+           /* for (int i=0;i<text.Length; i++)
+            {
+                
+                if (char.IsLetter(text[i]))
+                {
+                    Console.Write(text[i]);
+                }
+            }*/
+           foreach (char n in text)
+            {
+                if (char.IsLetter(n))
+                {
+                    Console.Write(n);
+                }
+            }
+
+
+
+
+                Console.ReadKey();
         }   
         static double Kreisfläche(double radius)
         {
